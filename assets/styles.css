@@ -1,0 +1,23 @@
+*{
+box-sizing: border-box;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+.subtitulo{
+    display: flex;
+    margin-left: 350px;
+}
+.imagenes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card-img-top{
+    height: 250px;
+}
+.card-texto{
+    color: black;
+    font-weight: bold;
+}
