@@ -48,6 +48,37 @@
         </div>
         <!-- Fin Header -->
         <!-- Inicio Form1 -->
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-12">
+                    <h2 class="mb-4">Solicitar Reparación</h2>    
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre del Cliente</label>
+                            <input type="text" class="form-control" id="nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="tipo" class="form-label">Tipo de Reparación</label>
+                            <select class="form-select" id="tipo">
+                                <option selected>Selecciona un servicio</option>
+                                <option value="pantalla">Cambio de aceite</option>
+                                <option value="bateria">Revisión de frenos</option>
+                                <option value="software">Diagnótico eléctrico</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="descripcion" class="form-label">Descripción</label>
+                            <textarea class="form-control" id="descripcion" rows="4"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="fecha" class="form-label">Agendar Cita</label>
+                            <input type="datetime-local" class="form-control" id="fecha">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div> 
+        <hr>     
         <!-- Fin Form1 -->
         <!-- Inicio Form2 -->
         <!-- Fin Form2 -->        
